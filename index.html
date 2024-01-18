@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google.clone</title>
+    <style>
+        body{
+            background-color: #212529;
+            font-family: sans-serif;
+        }
+        div ul li{
+            color: white;
+        }
+        .first-div ul img{
+            padding-right: 25px;
+        }
+        .first-div ul{
+            display: flex;
+            gap: 10px;
+            justify-content: right;
+        }
+        .first-div ul li{
+            list-style: none;
+        }
+       .second-div h1{
+            text-align: center;            
+       }
+       .second-div h1 input{
+        height: 40px;
+        width: 600px;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 50px;
+        outline: none;
+       }
+       .second-div .btn button{
+        padding:10px 20px;
+        background-color: #343a40;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor:pointer;
+       }
+       .btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="first-div" >
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <img src="/list.svg" alt="">
+        </ul>
+    </div>
+    <div class="second-div">
+        <h1><img src="/googlelogo_light_color_272x92dp.png" alt="" height="100"></h1>
+        <h1><input type="search"></h1>
+        <div class="btn">
+            <button>Google Search</button><button>I'm Feeling</button>
+        </div>
+    </div>
+</body>
+</html> 
